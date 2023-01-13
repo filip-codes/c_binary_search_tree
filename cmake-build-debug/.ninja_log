@@ -1,0 +1,22 @@
+# ninja log v5
+1	37	1673464801473612702	CMakeFiles/ti_projekt_search.dir/helpers/create_node.c.o	ee2358c28fcffd0d
+1	135	1673465385448257435	CMakeFiles/ti_projekt_search.dir/helpers/initialize_node.c.o	d1d7c184fb6cdb5f
+1	79	1673464532094698596	CMakeFiles/ti_projekt_search.dir/helpers/inorder_traversal_node.c.o	1d3405261895304a
+1	134	1673465385447554499	CMakeFiles/ti_projekt_search.dir/tasks/three.c.o	de541b1d32a50a5
+31	64	1673464972513248944	ti_projekt_search	9bc2c07e893e03b3
+0	34	1673465412996350832	CMakeFiles/ti_projekt_search.dir/tasks/one.c.o	571ab1899000f291
+1	133	1673465385445439151	CMakeFiles/ti_projekt_search.dir/tasks/two.c.o	d01b0a8f0e888b2
+1	29	1673464575424409514	CMakeFiles/ti_projekt_search.dir/main.c.o	188958af48f46684
+0	26	1673465491561268886	CMakeFiles/ti_projekt_search.dir/helpers/hit_or_miss.c.o	4d86931fe5946a0c
+26	57	1673465491592408919	ti_projekt_search	da9ae5dde6cd6d17
+0	138	1673466081222938248	CMakeFiles/ti_projekt_search.dir/tasks/one.c.o	571ab1899000f291
+0	139	1673466081222938332	CMakeFiles/ti_projekt_search.dir/tasks/two.c.o	d01b0a8f0e888b2
+139	177	1673466081263370650	ti_projekt_search	da9ae5dde6cd6d17
+0	24	1673466113531887540	CMakeFiles/ti_projekt_search.dir/tasks/one.c.o	571ab1899000f291
+24	55	1673466113563386333	ti_projekt_search	da9ae5dde6cd6d17
+0	25	1673466134081103775	CMakeFiles/ti_projekt_search.dir/tasks/one.c.o	571ab1899000f291
+26	57	1673466134113378980	ti_projekt_search	da9ae5dde6cd6d17
+0	33	1673466200711225565	CMakeFiles/ti_projekt_search.dir/main.c.o	188958af48f46684
+33	64	1673466200743602782	ti_projekt_search	da9ae5dde6cd6d17
+1	34	1673466242373497956	CMakeFiles/ti_projekt_search.dir/tasks/two.c.o	d01b0a8f0e888b2
+34	68	1673466242408401087	ti_projekt_search	da9ae5dde6cd6d17
