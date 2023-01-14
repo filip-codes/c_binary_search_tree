@@ -31,10 +31,10 @@ int main(int argc, char *argv[]) {
             printf("Executing second task:\n\n");
             execute_task_two();
             break;
-            /*case 3:
+            case 3:
                 printf("Executing third task:\n\n");
                 execute_task_three();
-                break;*/
+                break;
         default:
             printf("Task %d is not defined. Please try again...\n", task_number);
             break;

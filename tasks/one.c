@@ -14,14 +14,14 @@ void execute_task_one() {
         p_root = initialize_node(p_root, (rand() % 1000));
 
     printf("Inorder traversal: ");
-    inorder_traversal_node(p_root);
+    inorder_traversal_node(p_root, 1);
 
     printf("\n");
     printf("Enter a number and search for it:\n");
     int number = 0;
     scanf("%d", &number);
 
-    int hit_counter = hit_or_miss(p_root, number);
+    int hit_counter = hit_or_miss(p_root, number, 1);
 
     printf("\n");
 

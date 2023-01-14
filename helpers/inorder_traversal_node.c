@@ -3,15 +3,16 @@
 #include "../structs/node.h"
 
 // Inorder Traversal
-void inorder_traversal_node(struct Node *root) {
+void inorder_traversal_node(struct Node *root, int show_numbers) {
     if (root != NULL) {
         // Traverse left
-        inorder_traversal_node(root->leftNode);
+        inorder_traversal_node(root->leftNode, show_numbers);
 
         // Traverse root
-        printf("%d -> ", root->currentNumber);
+        if (show_numbers == 1)
+            printf("%d -> ", root->currentNumber);
 
         // Traverse right
-        inorder_traversal_node(root->rightNode);
+        inorder_traversal_node(root->rightNode, show_numbers);
     }
 }

@@ -6,10 +6,6 @@
 #include "all.h"
 #include "../helpers/all.h"
 
-int cmpfunc (const void * a, const void * b) {
-    return ( *(int*)a - *(int*)b );
-}
-
 void execute_task_two() {
     int count = 400;
     struct Node *p_root = NULL;

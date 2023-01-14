@@ -46,6 +46,18 @@ cmake_ninja_workdir = /Users/petrovic/CLionProjects/ti_projekt_search/cmake-buil
 
 build cmake_object_order_depends_target_ti_projekt_search: phony || CMakeFiles/ti_projekt_search.dir
 
+build CMakeFiles/ti_projekt_search.dir/helpers/cmpfunc.c.o: C_COMPILER__ti_projekt_search_Debug /Users/petrovic/CLionProjects/ti_projekt_search/helpers/cmpfunc.c || cmake_object_order_depends_target_ti_projekt_search
+  DEP_FILE = CMakeFiles/ti_projekt_search.dir/helpers/cmpfunc.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/ti_projekt_search.dir
+  OBJECT_FILE_DIR = CMakeFiles/ti_projekt_search.dir/helpers
+
+build CMakeFiles/ti_projekt_search.dir/helpers/add_to_array.c.o: C_COMPILER__ti_projekt_search_Debug /Users/petrovic/CLionProjects/ti_projekt_search/helpers/add_to_array.c || cmake_object_order_depends_target_ti_projekt_search
+  DEP_FILE = CMakeFiles/ti_projekt_search.dir/helpers/add_to_array.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/ti_projekt_search.dir
+  OBJECT_FILE_DIR = CMakeFiles/ti_projekt_search.dir/helpers
+
 build CMakeFiles/ti_projekt_search.dir/helpers/create_node.c.o: C_COMPILER__ti_projekt_search_Debug /Users/petrovic/CLionProjects/ti_projekt_search/helpers/create_node.c || cmake_object_order_depends_target_ti_projekt_search
   DEP_FILE = CMakeFiles/ti_projekt_search.dir/helpers/create_node.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
@@ -102,7 +114,7 @@ build CMakeFiles/ti_projekt_search.dir/main.c.o: C_COMPILER__ti_projekt_search_D
 #############################################
 # Link the executable ti_projekt_search
 
-build ti_projekt_search: C_EXECUTABLE_LINKER__ti_projekt_search_Debug CMakeFiles/ti_projekt_search.dir/helpers/create_node.c.o CMakeFiles/ti_projekt_search.dir/helpers/hit_or_miss.c.o CMakeFiles/ti_projekt_search.dir/helpers/initialize_node.c.o CMakeFiles/ti_projekt_search.dir/helpers/inorder_traversal_node.c.o CMakeFiles/ti_projekt_search.dir/tasks/one.c.o CMakeFiles/ti_projekt_search.dir/tasks/two.c.o CMakeFiles/ti_projekt_search.dir/tasks/three.c.o CMakeFiles/ti_projekt_search.dir/main.c.o
+build ti_projekt_search: C_EXECUTABLE_LINKER__ti_projekt_search_Debug CMakeFiles/ti_projekt_search.dir/helpers/cmpfunc.c.o CMakeFiles/ti_projekt_search.dir/helpers/add_to_array.c.o CMakeFiles/ti_projekt_search.dir/helpers/create_node.c.o CMakeFiles/ti_projekt_search.dir/helpers/hit_or_miss.c.o CMakeFiles/ti_projekt_search.dir/helpers/initialize_node.c.o CMakeFiles/ti_projekt_search.dir/helpers/inorder_traversal_node.c.o CMakeFiles/ti_projekt_search.dir/tasks/one.c.o CMakeFiles/ti_projekt_search.dir/tasks/two.c.o CMakeFiles/ti_projekt_search.dir/tasks/three.c.o CMakeFiles/ti_projekt_search.dir/main.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/ti_projekt_search.dir
   POST_BUILD = :
