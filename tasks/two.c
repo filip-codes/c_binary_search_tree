@@ -6,8 +6,6 @@
 #include "all.h"
 #include "../helpers/all.h"
 
-void add_to_array(struct Node *p_root, int **numbers, int *i);
-
 int cmpfunc (const void * a, const void * b) {
     return ( *(int*)a - *(int*)b );
 }
@@ -45,18 +43,4 @@ void execute_task_two() {
     }
 
     // free noch schreiben
-}
-
-void add_to_array(struct Node *p_root, int **numbers, int *i) {
-    if (p_root == NULL || i == NULL)
-        return;
-
-    // Traverse root
-    (*numbers)[*i] = p_root->currentNumber;
-    (*i)++;
-
-    // Traverse left
-    add_to_array(p_root->leftNode, numbers, i);
-    // Traverse right
-    add_to_array(p_root->rightNode, numbers, i);
 }
