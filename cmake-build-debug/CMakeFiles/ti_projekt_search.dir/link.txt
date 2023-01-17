@@ -1,0 +1,3 @@
+"E:\CLion 2022.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\ti_projekt_search.dir/objects.a
+"E:\CLion 2022.3\bin\mingw\bin\ar.exe" qc CMakeFiles\ti_projekt_search.dir/objects.a @CMakeFiles\ti_projekt_search.dir\objects1.rsp
+"E:\CLion 2022.3\bin\mingw\bin\gcc.exe" -g -Wl,--whole-archive CMakeFiles\ti_projekt_search.dir/objects.a -Wl,--no-whole-archive -o ti_projekt_search.exe -Wl,--out-implib,libti_projekt_search.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ti_projekt_search.dir\linklibs.rsp

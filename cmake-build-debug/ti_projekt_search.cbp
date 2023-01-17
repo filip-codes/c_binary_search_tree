@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ti_projekt_search"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/ti_bst/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ti_bst/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ti_bst/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ti_bst/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ti_bst/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ti_projekt_search">
+				<Option output="E:/ti_bst/cmake-build-debug/ti_projekt_search.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ti_bst/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="E:/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="E:/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="E:/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ti_bst/cmake-build-debug/Makefile&quot;  VERBOSE=1 ti_projekt_search"/>
+					<CompileFile command="E:/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ti_bst/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ti_bst/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ti_bst/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ti_projekt_search/fast">
+				<Option output="E:/ti_bst/cmake-build-debug/ti_projekt_search.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ti_bst/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="E:/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="E:/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="E:/CLion 2022.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ti_bst/cmake-build-debug/Makefile&quot;  VERBOSE=1 ti_projekt_search/fast"/>
+					<CompileFile command="E:/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ti_bst/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ti_bst/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ti_bst/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/ti_bst/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ti_bst/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ti_bst/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ti_bst/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ti_bst/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/ti_bst/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ti_bst/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ti_bst/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ti_bst/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/ti_bst/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/ti_bst/helpers/add_to_array.c">
+			<Option target="ti_projekt_search"/>
+		</Unit>
+		<Unit filename="E:/ti_bst/helpers/all.h">
+			<Option target="ti_projekt_search"/>
+		</Unit>
+		<Unit filename="E:/ti_bst/helpers/cmpfunc.c">
+			<Option target="ti_projekt_search"/>
+		</Unit>
+		<Unit filename="E:/ti_bst/helpers/create_node.c">
+			<Option target="ti_projekt_search"/>
+		</Unit>
+		<Unit filename="E:/ti_bst/helpers/hit_or_miss.c">
+			<Option target="ti_projekt_search"/>
+		</Unit>
+		<Unit filename="E:/ti_bst/helpers/initialize_node.c">
+			<Option target="ti_projekt_search"/>
+		</Unit>
+		<Unit filename="E:/ti_bst/helpers/inorder_traversal_node.c">
+			<Option target="ti_projekt_search"/>
+		</Unit>
+		<Unit filename="E:/ti_bst/main.c">
+			<Option target="ti_projekt_search"/>
+		</Unit>
+		<Unit filename="E:/ti_bst/structs/node.h">
+			<Option target="ti_projekt_search"/>
+		</Unit>
+		<Unit filename="E:/ti_bst/tasks/all.h">
+			<Option target="ti_projekt_search"/>
+		</Unit>
+		<Unit filename="E:/ti_bst/tasks/one.c">
+			<Option target="ti_projekt_search"/>
+		</Unit>
+		<Unit filename="E:/ti_bst/tasks/three.c">
+			<Option target="ti_projekt_search"/>
+		</Unit>
+		<Unit filename="E:/ti_bst/tasks/two.c">
+			<Option target="ti_projekt_search"/>
+		</Unit>
+		<Unit filename="E:/ti_bst/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

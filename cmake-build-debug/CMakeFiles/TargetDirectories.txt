@@ -1,3 +1,3 @@
-/Users/petrovic/CLionProjects/ti_projekt_search/cmake-build-debug/CMakeFiles/ti_projekt_search.dir
-/Users/petrovic/CLionProjects/ti_projekt_search/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/petrovic/CLionProjects/ti_projekt_search/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/ti_bst/cmake-build-debug/CMakeFiles/ti_projekt_search.dir
+E:/ti_bst/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/ti_bst/cmake-build-debug/CMakeFiles/rebuild_cache.dir
