@@ -5,7 +5,7 @@
 #include "all.h"
 #include "../helpers/all.h"
 
-void self_implemented(struct Node *p_root, int count);
+void self_implemented(struct Node *p_root);
 int *library(struct Node *p_root, int count);
 
 void self_implemented_search(struct Node *p_root);
@@ -28,7 +28,7 @@ void execute_task_three() {
     printf("Init %d nodes:\t\t\t%.2fs\n\n", count, total_time);
 
     printf("Self Implemented:\n");
-    self_implemented(p_root, count);
+    self_implemented(p_root);
 
     printf("Library Implemented:\n");
     int *numbers = library(p_root, count);
@@ -42,7 +42,7 @@ void execute_task_three() {
     // free noch schreiben
 }
 
-void self_implemented(struct Node *p_root, int count) {
+void self_implemented(struct Node *p_root) {
     clock_t start_time = clock();
 
     inorder_traversal_node(p_root, 0);
